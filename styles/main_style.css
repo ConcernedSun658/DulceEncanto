@@ -105,17 +105,18 @@ body{
 
 .aboutus_container{
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     margin-top: 100px;
+    background-color: var(--amarillo_claro);
 }
 .aboutus_container .info_container{
     width: 100%;
-    height: 400px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +129,7 @@ body{
     width: 90%;
     height: 50px;
     font-size: 1.4rem;
-    margin: 10px auto;  
+    margin: 20px auto;  
 }
 .title .marca{
     font-family: 'Lobster', cursive;
@@ -143,9 +144,8 @@ body{
 .info_container .galery_container{
     color: white;
     display: flex;
-    border: 2px solid var(--color_logo_2);
     width: 60%;
-    height: 100%;
+    height: 90%;
     background-color: var(--color_negro);
     border-radius: 10px;
 }
@@ -181,25 +181,27 @@ body{
     font-weight: bold;    
 }
 .products_container{
-    width: 90%;
+    width: 80%;
     margin: 100px auto;
     height: 1000px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    background-color: #261811;
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='84' viewBox='0 0 84 84' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f2911b' fill-opacity='0.4'%3E%3Cpath d='M84 23c-4.417 0-8-3.584-8-7.998V8h-7.002C64.58 8 61 4.42 61 0H23c0 4.417-3.584 8-7.998 8H8v7.002C8 19.42 4.42 23 0 23v38c4.417 0 8 3.584 8 7.998V76h7.002C19.42 76 23 79.58 23 84h38c0-4.417 3.584-8 7.998-8H76v-7.002C76 64.58 79.58 61 84 61V23zM59.05 83H43V66.95c5.054-.5 9-4.764 9-9.948V52h5.002c5.18 0 9.446-3.947 9.95-9H83v16.05c-5.054.5-9 4.764-9 9.948V74h-5.002c-5.18 0-9.446 3.947-9.95 9zm-34.1 0H41V66.95c-5.053-.502-9-4.768-9-9.948V52h-5.002c-5.184 0-9.447-3.946-9.95-9H1v16.05c5.053.502 9 4.768 9 9.948V74h5.002c5.184 0 9.447 3.946 9.95 9zm0-82H41v16.05c-5.054.5-9 4.764-9 9.948V32h-5.002c-5.18 0-9.446 3.947-9.95 9H1V24.95c5.054-.5 9-4.764 9-9.948V10h5.002c5.18 0 9.446-3.947 9.95-9zm34.1 0H43v16.05c5.053.502 9 4.768 9 9.948V32h5.002c5.184 0 9.447 3.946 9.95 9H83V24.95c-5.053-.502-9-4.768-9-9.948V10h-5.002c-5.184 0-9.447-3.946-9.95-9zM50 50v7.002C50 61.42 46.42 65 42 65c-4.417 0-8-3.584-8-7.998V50h-7.002C22.58 50 19 46.42 19 42c0-4.417 3.584-8 7.998-8H34v-7.002C34 22.58 37.58 19 42 19c4.417 0 8 3.584 8 7.998V34h7.002C61.42 34 65 37.58 65 42c0 4.417-3.584 8-7.998 8H50z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 20px;
 }
 
 
 .products_container .product_card{
-    width: 18%;
-    margin: 10px 10px;
-    height: 275px;
+    width: 20%;
+    margin: 20px 20px;
+    height: 350px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
-    background-color: white;
-    box-shadow: 7px 9px 39px -12px rgba(0,0,0,0.75);
+    background-color: var(--amarillo_claro);
 }
 
 .product_card .card_image{
@@ -218,7 +220,6 @@ body{
 .product_card .card_description{
     width: 100%;
     height: 40%;
-    border-top: 2px solid var(--color_logo_2);
 }
 
 
