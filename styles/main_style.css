@@ -51,12 +51,15 @@ body{
     margin-top: 30px;
     padding-left: 60%;
 }
-.options_container ul a{
+.options_container li{
     text-decoration: none;
-    color: var(--color_logo_1);
     margin-left: 5%;
 }
-.options_container ul a:hover{
+.options_container li a{
+    text-decoration: none;
+    color: var(--color_logo_1);
+}
+.options_container li a:hover{
    
     color: var(--amarillo_claro);
 }
@@ -111,7 +114,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: var(--amarillo_claro);
 }
 .aboutus_container .info_container{
@@ -133,7 +136,7 @@ body{
 }
 .title .marca{
     font-family: 'Lobster', cursive;
-    color: var(--color_logo_1);
+    color: var(--color_logo_3);
 }
 
 .description_container p{
@@ -171,9 +174,9 @@ body{
 .title_section{
     width: 100%;
     height: 50px;
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center;
-    color: var(--color_logo_2);
+    color: var(--color_logo_3);
 }
 
 .title_section span{
@@ -220,6 +223,7 @@ body{
     height: 40%;
 }
 .card_description h3{
+    font-size: 0.8rem;
     margin-top: 10px;
     color: var(--amarillo_fondo);
 }
@@ -230,6 +234,50 @@ body{
 }
 
 
+
+.section_services{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.section_services .image_logo{
+    width: 25%;
+    height: 60%;
+}
+.image_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.section_services .card_service{
+    width: 75%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(242,222,160,1) 2%, rgba(242,145,27,1) 100%);
+
+
+}
+.card_service h4{
+    padding: 20px;
+    font-size: 2.4rem;
+    color: var(--color_negro);
+    text-align: center;
+}
+.card_service p{
+    padding: 10px 60px;
+    color: var(--color_logo_3);
+    font-size: 1.4rem;
+    text-align: center;
+}
+.card_service img{
+    padding-top: 15px;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+}
 
 
 
@@ -344,10 +392,19 @@ body{
     }
 
     .products_container{
-        height: 600px;
+        height: 700px;
     }
     .products_container .product_card{
         height: 230px;
+        width: 25%;
+    }
+    .card_description h3{
+        margin-top: 5px;
+    }
+    .card_description img{
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -372,7 +429,7 @@ body{
         margin-top: 30px;
     }
     
-    .options_container ul a{
+    .options_container ul li{
         margin-left: 10%;
     }
 
@@ -428,14 +485,23 @@ body{
         margin-top: 20px;
     }
     .products_container{
-        height: 450px;
+        height: 1300px;
         width: 100%;
     }
     
     
     .products_container .product_card{
-        height: 150px;
-        width: 20%;
+        height: 250px;
+        width: 30%;
+      
+    }
+
+    .card_description h3{
+        margin-top: 5px;
+    }
+    .card_description img{
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -461,7 +527,7 @@ body{
         margin-top: 25px;
     }
     
-    .options_container ul a{
+    .options_container ul li{
         margin-left: 5%;
     }
 
@@ -517,5 +583,12 @@ body{
     .products_container .product_card{
         height: 200px;
         width: 35%;
+    }
+    .card_description h3{
+        margin-top: 5px;
+    }
+    .card_description img{
+        width: 20px;
+        height: 20px;
     }
 }
