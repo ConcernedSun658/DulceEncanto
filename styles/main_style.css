@@ -257,8 +257,6 @@ body{
     width: 75%;
     height: 100%;
     background: linear-gradient(90deg, rgba(242,222,160,1) 2%, rgba(242,145,27,1) 100%);
-
-
 }
 .card_service h4{
     padding: 20px;
@@ -272,11 +270,14 @@ body{
     font-size: 1.4rem;
     text-align: center;
 }
-.card_service img{
-    padding-top: 15px;
-    border-radius: 5px;
+.card_service .img-service{
+    border-radius: 10px;
     width: 50%;
     height: 50%;
+    margin: 20px auto;
+    border: 5px solid var(--amarillo_fondo);
+    background-image: url(/src/img/galletas_servicios.jpg);
+    background-size: cover;
 }
 
 
