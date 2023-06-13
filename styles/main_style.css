@@ -14,6 +14,7 @@
 body{
     background-color: var(--amarillo_fondo);
     text-align: center;
+    
 }
 
 /* Diseño Barra de navegacion */
@@ -284,6 +285,26 @@ body{
     border: 5px solid black
 }
 
+/* Estilos del footer de la pagina */
+
+.footer{
+    color: var(--color_logo_2);
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, var(--color_logo_3), var(--color_negro));
+    margin-top: 100px;
+}
+.footer .copy{
+    padding-top: 20px;
+    margin: 20px auto;
+}
+.info_footer p{
+    padding-bottom: 10px;
+}
+.info_footer ul li .link_footer {
+    text-decoration: none;
+    color: var(--amarillo_claro);
+}
 
 
 
