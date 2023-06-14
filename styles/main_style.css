@@ -232,7 +232,7 @@ body{
 
 .section_services{
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-wrap: nowrap;
     justify-content:space-around;
@@ -282,7 +282,21 @@ body{
     width: 100%;
     height: 800px;
     margin-bottom: 100px;
-    border: 5px solid black
+    border: 5px solid black;
+   
+}
+.contact_us h4{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.plugins_content{
+    width:100%;
+    height: 600px;
+    margin-top: 15px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos del footer de la pagina */
@@ -428,6 +442,14 @@ body{
         width: 40px;
         height: 40px;
     }
+    .section_services .image_logo{
+        width: 40%;
+        height: 40%;
+    }
+    .card_service .img-service{
+        height: 40%;
+        width: 90%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -525,6 +547,26 @@ body{
         width: 30px;
         height: 30px;
     }
+
+    .section_services{
+        height: 700px;
+    }
+    .section_services .image_logo{
+        width: 30%;
+        height: 30%;
+    }
+    
+    .card_service h4{
+        font-size: 2.4rem;
+    }
+    .card_service p{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .card_service .img-service{
+        height: 40%;
+        width: 80%;
+    }
 }
 
 @media (max-width: 600px){
@@ -612,5 +654,24 @@ body{
     .card_description img{
         width: 20px;
         height: 20px;
+    }
+    .section_services{
+        height: 500px;
+    }
+    .section_services .image_logo{
+        width: 25%;
+        height: 25%;
+    }
+    .card_service h4{
+        font-size: 2rem;
+    }
+    .card_service p{
+        padding: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .card_service .img-service{
+        height: 30%;
+        width: 100%;
     }
 }
